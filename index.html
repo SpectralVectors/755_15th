@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+    
     <title>755 15th St</title>
+    
     <style>
       html, body {
         margin: 0;
@@ -18,21 +21,19 @@
       }
 
     </style>
+    
   </head>
-
+  
   <body>
-
     
     <script src="https://pchen66.github.io/js/three/three.min.js"></script>
     <script src="https://pchen66.github.io/js/panolens/panolens.min.js"></script>
     
-
     <script>
 
       var panorama, viewer;
         
       panorama = new PANOLENS.ImagePanorama( 'ButlerPantry.png' );
-
 
       viewer = new PANOLENS.Viewer({controlBar: true, output: 'console'});
       viewer.add( panorama );
@@ -40,4 +41,5 @@
     </script>
 
   </body>
+  
 </html>
